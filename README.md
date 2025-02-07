@@ -1,5 +1,10 @@
 # Firefox Tweaks
 
+## Tweaks
+* Opening ChatGPT will try to open the tab in an existing pinned instance
+
+## Installation
+
 To install dependencies:
 
 ```bash
