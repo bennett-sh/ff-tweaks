@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Tweaks (BSh)",
+  "version": "1.0",
+  "description": "A bunch of personal, HIGHLY SUBJECTIVE tweaks.",
+  "icons": {},
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
