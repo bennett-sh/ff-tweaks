@@ -1,4 +1,4 @@
-# .
+# Firefox Tweaks
 
 To install dependencies:
 
@@ -6,10 +6,14 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To build for debugging:
 
 ```bash
-bun run .
+bun run build:vite
 ```
 
-This project was created using `bun init` in bun v1.2.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+To build for production:
+
+```bash
+bun run build
+```
