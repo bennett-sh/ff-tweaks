@@ -1,14 +1,20 @@
 {
   "manifest_version": 2,
   "name": "Tweaks (BSh)",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "A bunch of personal, HIGHLY SUBJECTIVE tweaks.",
   "icons": {},
   "permissions": [
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
-  "browser_specific_settings": {"gecko": {"id": "{91f7d03d-d768-4eb9-b5da-b543e5a20e4b}"}}
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{91f7d03d-d768-4eb9-b5da-b543e5a20e4b}"
+    }
+  }
 }
